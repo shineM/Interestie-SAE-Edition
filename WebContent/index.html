@@ -1,0 +1,180 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="carousel/icon.png" type="image/x-icon" />
+<link rel="Bookmark" href="carousel/icon.png" />
+<title>Interestie</title>
+<!-- <script src="carousel/cookie.js"></script> -->
+<link href="dist/css/bootstrap.css" rel="stylesheet">
+<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- <script src="carousel/socialApp.js"></script> -->
+<script src="carousel/colorInit.js"></script>
+<link href="carousel/carousel.css" rel="stylesheet">
+<link href="carousel/extends.css" rel="stylesheet">
+<script src="carousel/colorBar.js"></script>
+<script src="carousel/main.js"></script>
+
+</head>
+<!-- NAVBAR -->
+<body>
+
+	<nav id="navbar1"
+		class="navbar navbar-inverse navbar-fixed-top row top-links">
+		<div id="loadAni" class="bar1 loaderbar1858"></div>
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<p class="navbar-brand active" style="margin-left: 100px;">Interestie
+				</p>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a href="http://danlvse.com/" target="_blank">Blog</a></li>
+					<li><a href="about.html">About</a></li>
+
+				</ul>
+				<div class="navbackground user ">
+					<a href="login.html" id="login-button">登录</a> <a id="user"
+						href="sign-up.html">注册</a>
+				</div>
+
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="bgContainer">
+		<div class="blkspace"></div>
+		<div class="mainContainer">
+			<div class="leftContainer"></div>
+			<div class="rightContainer">
+				<div class="tagContainer">
+					<div class="tag-container">
+						<div class="tag-header">
+							<h3>
+								Tags <a href="" data-toggle="modal" data-target="#myModal"
+									class="pull-right-tag">编辑</a>
+							</h3>
+							<!-- 模态框（Modal） -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+								aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal"
+												aria-hidden="true">×</button>
+											<h4 class="modal-title" id="myModalLabel">选择你感兴趣的话题吧</h4>
+										</div>
+										<div class="modal-body">
+											<div>
+												
+												<input type="button" class="topic-tag-button" value="App">
+												<input type="button" class="topic-tag-button" value="开发者社区">
+												<input type="button" class="topic-tag-button" value="篮球">
+												<input type="button" class="topic-tag-button" value="生活娱乐">
+												
+											</div>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default"
+												data-dismiss="modal">关闭</button>
+											<button id="tagSubmit" type="button" class="btn btn-primary">完成</button>
+										</div>
+									</div>
+									<!-- /.modal-content -->
+								</div>
+								<!-- /.modal-dialog -->
+							</div>
+							<!-- /.modal -->
+							<script>
+								$(function() {
+									$('#myModal').modal({
+										keyboard : true
+									})
+								});
+							</script>
+						</div>
+						<div class="topic-tag" id="board"></div>
+					</div>
+				</div>
+
+				<div class="donateContainer">
+
+					<div class="tag-container">
+						<div class="tag-header">
+							<h3>Follow me</h3>
+						</div>
+						<div style="margin-top: -10px; margin-bottom: 20px;">
+							<a href="http://weibo.com/u/3212528202" target="_blank"
+								class="social-app-a"><img src="carousel/weibo.png"
+								class="social-app1"></a> <a
+								href="https://twitter.com/shineMicroxy" target="_blank"
+								class="social-app-a"><img src="carousel/t.png"
+								class="social-app"></a> <a href="http://github.com/shineM"
+								target="_blank" class="social-app-a"><img
+								src="carousel/github.png" class="social-app"></a>
+						</div>
+						<div class="tag-header">
+							<h3>Feedback</h3>
+							
+						</div>
+						<p><a href="mailto:zhongxinyuann@gmail.com">反馈和建议</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div id="resultArea">
+				<ul class="pre-load-ul">
+					<li class=" pre-load li1"></li>
+					<li class=" pre-load li2"></li>
+					<li class=" pre-load li3"></li>
+
+				</ul>
+				<ul class="pre-load-ul">
+					<li class=" pre-load li1"></li>
+					<li class=" pre-load li2"></li>
+					<li class=" pre-load li3"></li>
+
+				</ul>
+				<ul class="pre-load-ul">
+					<li class=" pre-load li1"></li>
+					<li class=" pre-load li2"></li>
+					<li class=" pre-load li3"></li>
+
+				</ul>
+			</div>
+			<div class="pageView">
+				<button id="beforePage">上一页</button>
+				<p id="pageNum" class="pageNum">1</p>
+				<button id="nextPage">下一页</button>
+			</div>
+			<div class="blkspace"></div>
+
+		</div>
+	</div>
+	<div class="myFooter">
+
+		&copy;2015 shineMicroxy. Email:<a href="mailto:zhongxinyuann@gmail.com">zhongxinyuann@gmail.com</a>
+	</div>
+
+	<script src="dist/js/bootstrap.js"></script>
+	<script src="../../assets/js/vendor/holder.min.js"></script>
+	<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
