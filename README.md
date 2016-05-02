@@ -1,5 +1,7 @@
 # Interestie
 Code for fun！
+![alt tag](https://cloud.githubusercontent.com/assets/5700392/14947191/e50b6154-1061-11e6-9d5c-5f0429d8dfd4.png)
+
 # What’s the function
 Make a interesting page of myself!If you hava some same topic,I am glad to share to you,have fun in my zone :)
 # How it works
